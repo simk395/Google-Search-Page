@@ -1,0 +1,195 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#7777;
+}
+
+ul {
+    display:inline;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.nav_bar{
+    background:#f2f2f2;
+    white-space: nowrap;
+}
+
+#logo{
+    float:left;
+    width: 118px;
+    height:44px;
+    margin:24px 0px 0px 15px;
+}
+
+#search_bar{
+    margin:24px 0px 20px 15px;
+    padding-left: 15px;
+    width:635px;
+    height:44px;
+    white-space: nowrap;
+    
+}
+
+#search_bar:hover{
+    box-shadow: 1px 1px;
+}
+
+.profile{
+    float:right;
+    display:flex;
+    margin-top: 30px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#apps img{
+    flex: 1;
+    height:20px;
+    width:20px;
+    padding-top:15px;
+}
+
+#icon img{
+    flex:1;
+}
+
+#notification img{
+    flex:1;
+    height:20px;
+    width:20px;
+    padding-top:15px;
+}
+
+
+.nav-link{
+    width: 635px;
+    height:35px;
+    margin: 0px 0px 0px 150px;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+
+.nav-link li{
+    display: inline-block;
+    font-size: 13px;
+    margin-right:20px;
+}
+
+.nav-link li:first-child{
+    border-bottom-color: #1a73e8;
+    border-bottom-style: solid;
+    height: 30px;
+}
+.nav-link li:first-child a{
+    color:#1a73e8;
+}
+.nav-link li:nth-child(6){
+    margin-right:175px;
+}
+
+.nav-link a:hover{
+    color:black;
+}
+
+.result-amount{
+    margin-left:158px;
+    color:#7777;
+    font-size:13px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+.top-result{
+    box-shadow: 0px 1px 1px 0px; 
+    width:633px;
+    height: 287px;
+    margin: 0px 0px 50px 150px;
+    padding: 5px 0px 0px 20px; 
+    
+}
+
+.more{
+    display:block;
+    margin:0px 0px 20px 40px;
+}
+
+.more:hover{
+    text-decoration: underline;
+}
+
+.search_result{
+    width: 600px;
+    margin: 0px 125px 0px 150px;
+    padding-left:20px;
+}
+
+.page-title{
+    display:block;
+    color: blue;
+    font-size:18px;
+}
+
+.page-title:hover{
+    text-decoration: underline;
+}
+
+.page-url{
+    
+    color:green;
+    font-size:small;
+}
+
+.page-description{
+    font-size:small;
+}
+
+.nav-bottom{
+    background:#f2f2f2;
+    width:100%;
+    height: 65px;
+
+}
+
+.pages{
+    width: 600px;
+    margin-left:150px;
+    padding-left:150px;
+}
+
+.pages li{
+    display:inline-block;
+    
+}
+
+.pages a{
+    color:blue;
+}
+
+.location{
+    margin-left: 175px;
+    font-size:13px;
+    white-space: nowrap;
+}
+
+.nav-bottom-link{
+    margin-left: 175px;
+    white-space: nowrap;
+}
+
+.nav-bottom-link li{
+    display:inline-block;
+    margin-right:25px;
+}
+
+.nav-bottom-link a{
+    color:black;
+    font-size:13px;
+}
